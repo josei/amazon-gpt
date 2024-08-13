@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bs4 = "*"
+requests = "*"
+llama-index = "*"
+llama-index-embeddings-huggingface = "*"
+llama-index-llms-ollama = "*"
+transformers = "*"
+streamlit = "*"
+watchdog = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
